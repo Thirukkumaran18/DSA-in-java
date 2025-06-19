@@ -1,9 +1,13 @@
+import java.util.*;
 class Main{
+ 
     public static void main(String[] args){
         
-        String str = "ABC";
-        f(str, 0, "");
-       
+        // String str = "ABC";
+        // f(str, 0, "");
+       HashMap<Integer, Integer> map = new HashMap<>();  
+       map.put(1, 7);
+       System.out.println(map.get(6));
     }
 
     public static void f(String str, int ind, String res){
